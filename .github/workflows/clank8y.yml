@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: clank8y/clank8y@feat/c8y_prompt # pin to a specific commit SHA instead of a tag
+      - uses: clank8y/clank8y@v1.0.0 # pin to a specific commit SHA instead of a tag
         env:
           COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
         with:
